@@ -8,8 +8,8 @@ describe('greet module', () => {
     expect(greet()).toBeNull();
   });
 
-  it('should return "hello ryo" when passed ryo', () => {
-    expect(greet('ryo')).toBe('hello ryo');
+  it('should return "hello world" when passed world', () => {
+    expect(greet('world')).toBe('hello world');
   });
 
 });
